@@ -146,6 +146,7 @@ main .mainvisual .thumb ul li .white {
   padding: 8px 32px;
   background-color: white;
   transition: all 0.3s;
+  display: block;
 }
 @media screen and (max-width: 480px) {
   main .mainvisual .thumb ul li .white {
@@ -159,7 +160,8 @@ main .mainvisual .thumb ul li .black {
   background-color: black;
   color: white;
   transition: all 0.3s;
-  box-shadow: 0px 4px 0px rgb(162, 160, 160);
+  box-shadow: 0px 4px 0px rgb(196, 196, 196);
+  display: block;
 }
 main .mainvisual .thumb ul li .black:hover {
   transform: translateY(6px);
