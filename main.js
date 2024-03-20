@@ -14,7 +14,7 @@ $(window).scroll(function () {
             $(this).attr('class', 'slide');
         }
     });
-    $('.thumb button').each(function () {
+    $('.thumb .white').each(function () {
         var elemPos = $(this).offset().top,
             scroll = $(window).scrollTop(),
             windowHeight = $(window).height();
