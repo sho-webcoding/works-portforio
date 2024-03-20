@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: black;
+  font-family: "Noto Sans JP", sans-serif;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.wrapper .heading {
+  font-size: 40px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+@media screen and (max-width: 936px) {
+  .wrapper .heading {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper .heading {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+}
+
+header {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 480px) {
+  header {
+    margin-bottom: 90px;
+  }
+}
+header nav {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 60%;
+}
+@media screen and (max-width: 936px) {
+  header nav {
+    margin: 0 auto;
+  }
+}
+header nav a {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+@media screen and (max-width: 936px) {
+  header nav a {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-weight: 100;
+  }
+}
+@media screen and (max-width: 480px) {
+  header nav a {
+    font-size: 12px;
+  }
+}
+
+main .mainvisual {
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 480px) {
+  main .mainvisual {
+    margin-bottom: 90px;
+  }
+}
+main .mainvisual h1 {
+  text-align: center;
+  margin-bottom: 90px;
+}
+@media screen and (max-width: 480px) {
+  main .mainvisual h1 {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+}
+main .mainvisual .thumb img {
+  border: 4px solid black;
+  border-radius: 50px;
+  margin-bottom: 25px;
+}
+main .mainvisual .thumb ul {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+main .mainvisual .thumb ul li {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+@media screen and (max-width: 480px) {
+  main .mainvisual .thumb ul li {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+main .mainvisual .thumb ul li .white {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 8px 32px;
+  background-color: white;
+  transition: all 0.3s;
+}
+@media screen and (max-width: 480px) {
+  main .mainvisual .thumb ul li .white {
+    font-size: 8px;
+  }
+}
+main .mainvisual .thumb ul li .black {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 8px 32px;
+  background-color: black;
+  color: white;
+  transition: all 0.3s;
+  box-shadow: 0px 4px 0px rgb(162, 160, 160);
+}
+main .mainvisual .thumb ul li .black:hover {
+  transform: translateY(6px);
+  box-shadow: none;
+}
+@media screen and (max-width: 480px) {
+  main .mainvisual .thumb ul li .black {
+    font-size: 8px;
+  }
+}
+main section {
+  margin-bottom: 75px;
+}
+@media screen and (max-width: 480px) {
+  main section {
+    margin-bottom: 45px;
+  }
+}
+main section .none {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 480px) {
+  main section .none {
+    font-size: 16px;
+  }
+}
+main section .none::after {
+  display: block;
+  content: "";
+  width: 0px;
+  height: 2px;
+  background-color: #930202;
+  margin-top: 7px;
+  transition: 1s;
+}
+@media screen and (max-width: 480px) {
+  main section .none::after {
+    margin-top: 5px;
+  }
+}
+main section .slide {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 480px) {
+  main section .slide {
+    font-size: 16px;
+  }
+}
+main section .slide::after {
+  display: block;
+  content: "";
+  width: 230px;
+  height: 2px;
+  background-color: #930202;
+  margin-top: 7px;
+  transition: 1s;
+}
+@media screen and (max-width: 480px) {
+  main section .slide::after {
+    margin-top: 5px;
+    width: 150px;
+  }
+}
+main section img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+@media screen and (max-width: 480px) {
+  main section p {
+    font-size: 12px;
+  }
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 936px) {
+  footer p {
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=style.css.map */
